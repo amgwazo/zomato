@@ -21,6 +21,16 @@ header{
     margin-left:1%
 }
 
+#brand a {
+    font-size: small;
+    text-decoration: none;
+    color: white;
+    border: 1px solid rgb(116, 167, 218);
+    background-color: rgb(116, 167, 218);
+    border-radius: 5px;
+    padding: 5px;
+}
+
 #social{
     float: right;
 }

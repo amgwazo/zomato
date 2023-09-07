@@ -21,6 +21,16 @@ header{
     margin-left:1%
 }
 
+#brand a {
+    font-size: small;
+    text-decoration: none;
+    color: white;
+    border: 1px solid rgb(116, 167, 218);
+    background-color:rgb(116, 167, 218);
+    border-radius: 5px;
+    padding: 5px;
+}
+
 #social{
     float: right;
 }
@@ -29,13 +39,13 @@ header{
     height:50px
 }
 
-.navBtn{
+/* .navBtn{
     border: 1px solid lightblue;
     border-radius: 20px;
     background-color: blue;
     color: white;
     width: 100px;
-}
+} */
 
 
 #content{
@@ -69,10 +79,73 @@ header{
     height:700px;
     width:70%;
     border:2px solid orange;
-    margin-left:7%
+    margin-left:7%;
+    padding: 1%;
 }
 
+.restContent .card {
+   
+    box-shadow: 0px 3px 8px rgb(100, 100, 100);
+    width: 98%;
+    height: 210px;
+    margin-top: 15px;
 
+}
+
+.restContent .card h1{
+    color: rgb(69, 69, 236);
+    font-size: xx-large;
+}
+
+.restContent .card img {
+    float: left;
+    width: 40%;
+    height: 200px;
+    /* border: 1px solid gray; */
+    border-radius: 15px;
+    margin-left: 10px;
+}
+
+.restContent .card div {
+    float: right;
+    width: 56%;
+    height: 200px;
+    /* border: 1px solid blue; */
+    padding-left: 5px;
+    line-height: 1px;
+
+}
+
+.restContent .card div .btn{
+    padding: 5px 15px;
+    font-size: small;
+    margin: 1px 15px 15px 0px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 0px transparent;
+   
+
+}
+
+.restContent .card div .btnBlue {
+    background-color: rgb(172, 172, 236);
+    color: white;
+}
+
+.restContent .card div .btnRed {
+    background-color: rgb(179, 29, 18);
+    color: white;    
+}
+
+.restContent .card div .btnGreen {
+    background-color: rgb(18, 179, 45);
+    color: white;
+}
+
+.restContent .card div .btnOrange {
+    background-color: rgb(179, 109, 18);
+    color: white;
+}
 /* Footer */
 footer{
     /* height: 80px; */
