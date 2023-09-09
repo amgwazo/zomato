@@ -180,7 +180,7 @@ ul{
 
 
 /*** MEDIA QUERIES ***/
-@media screen and (max-width:768px) {
+@media screen and (max-width:1080px) {
 
     header {
             /* height: 60px; */
