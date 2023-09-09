@@ -1,150 +1,218 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="./listing.css" rel="stylesheet" type="text/css"/>
-        <title>ZomApp</title>
-    </head>
-    <body>
-        <header>
-            <div id="brand">
-                Developer Funnel 
-                <a href="../index.html">Home</a>
-            </div>
-           
-            <div id="social">
-                <a href="#">
-                    <img src="https://i.ibb.co/bsXv4bf/facebook.png" alt="fb" class="socialLogo"/>
-                </a>
-                <a href="#">
-                    <img src="https://i.ibb.co/8c9LJP1/insta.png" alt="insta" class="socialLogo"/>
-                </a>
-                <a href="#">
-                    <img src="https://i.ibb.co/w07K2Vn/youtube1.png" alt="yt" class="socialLogo"/>
-                </a>
-            </div>
-        </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./listing.css" rel="stylesheet" type="text/css" />
+    <title>ZomApp</title>
+  </head>
+  <body>
+    <header>
+      <div id="brand">
+        Developer Funnel
+        <a href="../index.html">Home</a>
+      </div>
 
-        <div id="content">
-            <div class="filter">
-                <h4>Cuisine Filter</h4>
-                <hr>
-                <div class="filterRadio">
-                    <input type="radio" name="cuisine" id="all" title="all"/>All
-                </div>
-                <div class="filterRadio">
-                    <input type="radio" name="cuisine" id="northindian" title="northindian" />North India
-                </div>
-                <div class="filterRadio">                    
-                    <input type="radio" name="cuisine" id="southindian" title="southindian" />South India
-                </div>
-                <div class="filterRadio">
-                    <input type="radio" name="cuisine" id="chinese" title="chinese" />Chinese
-                </div>
-                <div class="filterRadio"> 
-                    <input type="radio" name="cuisine" id="fastfood" title="fastfood" />Fast Food
-                </div>
-                <div class="filterRadio">
-                    <input type="radio" name="cuisine" id="sreetfood" title="streetfood" />Street Food
-                </div>
+      <div id="social">
+        <a href="#">
+          <img
+            src="https://i.ibb.co/bsXv4bf/facebook.png"
+            alt="fb"
+            class="socialLogo"
+          />
+        </a>
+        <a href="#">
+          <img
+            src="https://i.ibb.co/8c9LJP1/insta.png"
+            alt="insta"
+            class="socialLogo"
+          />
+        </a>
+        <a href="#">
+          <img
+            src="https://i.ibb.co/w07K2Vn/youtube1.png"
+            alt="yt"
+            class="socialLogo"
+          />
+        </a>
+      </div>
+    </header>
 
-                <h4>Cost Filter</h4>
-                <hr>
-                <div class="filterRadio">
-                    <input type="radio" name="cost" id="all" title="cuisine" />All
-                </div>
-                <div class="filterRadio">
-                    <input type="radio" name="cost" id="301" title="cuisine" />301 - 600
-                </div>
-                <div class="filterRadio">
-                    <input type="radio" name="cost" id="601" title="cuisine" />601 - 900
-                </div>
-                <div class="filterRadio">
-                    <input type="radio" name="cost" id="901" title="cuisine" />901 - 5000
-                </div>
-            </div>
-
-            
-            <div class="restContent">
-                <div class="card">
-                <img src="../image/restaurants/chikuyu_inn.jpg" alt="placeholder" />
-
-                <div>
-                    <h1>Chikuyu Inn</h1>
-                    <br />
-                    <p>No. 543, Chikuyu Drive, Lusaka</p>
-                    <p>Average</p>
-                    <p>$2.5</p>
-
-                    <button type="button" class="btn btnBlue" >Lunch</button>
-                    <button type="button" class="btn btnRed">Night Life</button>
-
-                    <br />
-                    <button type="button" class="btn btnGreen">North Indian</button>
-                    <button type="button" class=" btn btnOrange">Chinese</button>
-
-                </div>
-
-                </div>
-
- 
-                <div class="card">
-                    <img src="../image/restaurants/bluewater.jpg" alt="placeholder" />
-                
-                    <div>
-                        <h1>Blue Water Foods</h1>
-                        <br />                        
-                        <p>No. 1342, Marine Bay, Blue Water, Lusaka</p>
-                        <p>Poor</p>
-                        <p>$1.5</p>
-                
-                        <button type="button" class="btn btnBlue">Snacks</button>
-                        <button type="button" class="btn btnRed">Lunch</button>
-                
-                        <br />
-                        <button type="button" class="btn btnGreen">North Indian</button>
-                        <button type="button" class=" btn btnOrange">South Indian</button>
-                
-                    </div>
-                
-                </div>
-            
-            </div>
+    <div id="content">
+      <div class="filter">
+        <h4>Cuisine Filter</h4>
+        <hr />
+        <div class="filterRadio">
+          <input type="radio" name="cuisine" id="all" title="all" />All
+        </div>
+        <div class="filterRadio">
+          <input
+            type="radio"
+            name="cuisine"
+            id="northindian"
+            title="northindian"
+          />North India
+        </div>
+        <div class="filterRadio">
+          <input
+            type="radio"
+            name="cuisine"
+            id="southindian"
+            title="southindian"
+          />South India
+        </div>
+        <div class="filterRadio">
+          <input
+            type="radio"
+            name="cuisine"
+            id="chinese"
+            title="chinese"
+          />Chinese
+        </div>
+        <div class="filterRadio">
+          <input
+            type="radio"
+            name="cuisine"
+            id="fastfood"
+            title="fastfood"
+          />Fast Food
+        </div>
+        <div class="filterRadio">
+          <input
+            type="radio"
+            name="cuisine"
+            id="sreetfood"
+            title="streetfood"
+          />Street Food
         </div>
 
+        <h4>Cost Filter</h4>
+        <hr />
+        <div class="filterRadio">
+          <input type="radio" name="cost" id="all" title="cuisine" />All
+        </div>
+        <div class="filterRadio">
+          <input type="radio" name="cost" id="301" title="cuisine" />301 - 600
+        </div>
+        <div class="filterRadio">
+          <input type="radio" name="cost" id="601" title="cuisine" />601 - 900
+        </div>
+        <div class="filterRadio">
+          <input type="radio" name="cost" id="901" title="cuisine" />901 - 5000
+        </div>
+      </div>
 
-        <footer>
-            <hr/>
-            <p class="footText">&copy; Developer Funnel 2023</p>
-            <hr/>
-            <div class="footDiv">
-                <ul>
-                    <li>About Us</li>
-                    <li>Contact Us</li>
-                </ul>
-            </div>
-            <div class="footDiv">
-                <ul>
-                    <li>About Us</li>
-                    <li>Contact Us</li>
-                </ul>
-            </div>
-            <div class="footDiv noborder">
-                <ul>
-                    <li>About Us</li>
-                    <li>Contact Us</li>
-                </ul>
-            </div>
-            <a href="#">
-                <img src="https://i.ibb.co/bsXv4bf/facebook.png" alt="fb" class="socialLogo"/>
-            </a>
-            <a href="#">
-                <img src="https://i.ibb.co/8c9LJP1/insta.png" alt="insta" class="socialLogo"/>
-            </a>
-            <a href="#">
-                <img src="https://i.ibb.co/w07K2Vn/youtube1.png" alt="yt" class="socialLogo"/>
-            </a>
-        </footer>
-    </body>
+      <div class="restContent">
+        <div class="card">
+          <img src="../image/restaurants/chikuyu_inn.jpg" alt="chikuyu" />
+
+          <div>
+            <h1>Chikuyu Inn</h1>
+            <br />
+            <p>No. 543, Chikuyu Drive, Lusaka</p>
+            <p>Average</p>
+            <p>$2.5</p>
+
+            <button type="button" class="btn btnBlue">Lunch</button>
+            <button type="button" class="btn btnRed">Night Life</button>
+
+            <br />
+            <button type="button" class="btn btnGreen">North Indian</button>
+            <button type="button" class="btn btnOrange">Chinese</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="../image/restaurants/bluewater.jpg" alt="blue water" />
+
+          <div>
+            <h1>Blue Water Foods</h1>
+            <br />
+            <p>No. 1342, Marine Rd, Lusaka</p>
+            <p>Poor</p>
+            <p>$1.5</p>
+
+            <button type="button" class="btn btnBlue">Snacks</button>
+            <button type="button" class="btn btnRed">Lunch</button>
+
+            <br />
+            <button type="button" class="btn btnGreen">North Indian</button>
+            <button type="button" class="btn btnOrange">South Indian</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="../image/restaurants/snowwhite.jpg" alt="snow white" />
+
+          <div>
+            <h1>Snow White Foods</h1>
+            <br />
+            <p>No. 44, Mbambande Rd, Lusaka</p>
+            <p>Average</p>
+            <p>$1.5</p>
+
+            <button type="button" class="btn btnBlue">Snacks</button>
+            <button type="button" class="btn btnRed">Lunch</button>
+
+            <br />
+            <button type="button" class="btn btnGreen">North Indian</button>
+            <button type="button" class="btn btnOrange">South Indian</button>
+          </div>
+        </div>
+
+        <div class="pagination">
+           <a href="#">&lt</a>
+           <a href="#">1</a>
+           <a href="#">2</a>
+           <a href="#">3</a>
+           <a href="#">&gt</a>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <hr />
+      <p class="footText">&copy; Developer Funnel 2023</p>
+      <hr />
+      <div class="footDiv">
+        <ul>
+          <li>About Us</li>
+          <li>Contact Us</li>
+        </ul>
+      </div>
+      <div class="footDiv">
+        <ul>
+          <li>About Us</li>
+          <li>Contact Us</li>
+        </ul>
+      </div>
+      <div class="footDiv noborder">
+        <ul>
+          <li>About Us</li>
+          <li>Contact Us</li>
+        </ul>
+      </div>
+      <a href="#">
+        <img
+          src="https://i.ibb.co/bsXv4bf/facebook.png"
+          alt="fb"
+          class="socialLogo"
+        />
+      </a>
+      <a href="#">
+        <img
+          src="https://i.ibb.co/8c9LJP1/insta.png"
+          alt="insta"
+          class="socialLogo"
+        />
+      </a>
+      <a href="#">
+        <img
+          src="https://i.ibb.co/w07K2Vn/youtube1.png"
+          alt="yt"
+          class="socialLogo"
+        />
+      </a>
+    </footer>
+  </body>
 </html>

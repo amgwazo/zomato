@@ -82,6 +82,24 @@ header{
     margin-left:7%;
     padding: 1%;
     overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.pagination{
+    position: relative;
+    bottom: 0px;
+    left: 45%;
+    width: max-content;
+    margin-top: 15px;
+}
+
+.pagination a {
+    border: 1px solid gray;
+    border-radius: 35%;
+    padding-left: 6px;
+    padding-right: 6px;
+    font-size: smaller;
+    font-weight: bold;
 }
 
 .restContent .card {
@@ -228,7 +246,7 @@ ul{
         font-size:large;
         }
 
-    .restContent .img {
+    .restContent .card .img {
         width: 100%;
         border: 1px solid gray; 
         border-radius: 15px;
