@@ -54,13 +54,13 @@ header{
     margin-top:3%;
     display: flex;
 }
-
+ 
 .filter{
     height:500px;
     width:20%;
     border:2px solid grey;
    
-}
+} 
 
 .filter h4{
     margin-left: 27%;
@@ -75,12 +75,13 @@ header{
     display: inline-block;
 }
 
-.restContent{
+ .restContent{
     height:700px;
     width:70%;
     border:2px solid orange;
     margin-left:7%;
     padding: 1%;
+    overflow-y: scroll;
 }
 
 .restContent .card {
@@ -90,18 +91,17 @@ header{
     height: 210px;
     margin-top: 15px;
 
-}
+} 
 
 .restContent .card h1{
     color: rgb(69, 69, 236);
     font-size: xx-large;
 }
 
-.restContent .card img {
+ .restContent .card img {
     float: left;
     width: 40%;
     height: 200px;
-    /* border: 1px solid gray; */
     border-radius: 15px;
     margin-left: 10px;
 }
@@ -109,12 +109,12 @@ header{
 .restContent .card div {
     float: right;
     width: 56%;
-    height: 200px;
-    /* border: 1px solid blue; */
+    height: 200px;    
     padding-left: 5px;
     line-height: 1px;
+    overflow-wrap: break-word;
 
-}
+} 
 
 .restContent .card div .btn{
     padding: 5px 15px;
@@ -128,7 +128,7 @@ header{
 }
 
 .restContent .card div .btnBlue {
-    background-color: rgb(172, 172, 236);
+    background-color: rgb(78, 78, 245);
     color: white;
 }
 
@@ -146,6 +146,10 @@ header{
     background-color: rgb(179, 109, 18);
     color: white;
 }
+.restContent .card div p {
+    overflow-wrap: break-word;
+}
+
 /* Footer */
 footer{
     /* height: 80px; */
@@ -172,3 +176,71 @@ ul{
 .noborder{
     border:none
 }
+
+
+
+/*** MEDIA QUERIES ***/
+@media screen and (max-width:768px) {
+
+    header {
+            /* height: 60px; */
+            height: 100px;
+            /*border:5px solid hotpink;*/
+            background-color: #3b2632;
+        }
+
+        .filter {
+                height: 100%;
+                width: 30%;
+                border: 2px solid grey;
+                font-size: smaller;
+        
+            }
+
+        .restContent {
+            height: 700px;
+            width: 66%;
+            border: 2px solid rgb(0, 255, 98);
+            margin-left: 1%;
+            margin-bottom: 20px;
+            padding: 1%;
+            overflow-y: scroll;
+            display: flex;
+            flex-direction: column;
+            font-size: smaller;
+            /* overflow-x:wrap; */
+        }
+
+        
+
+    .restContent .card {
+        box-shadow: 0px 3px 8px rgb(100, 100, 100);
+        width: 98%;
+        margin-top: 15px;
+        padding-left: 15px;
+        border-radius: 3px;
+        height: auto;
+        display: block;
+    }
+
+    .restContent .card h1 {
+        color: rgb(69, 69, 236);
+        font-size:large;
+        }
+
+    .restContent .img {
+        width: 100%;
+        border: 1px solid gray; 
+        border-radius: 15px;
+        margin-left: 10px;
+        display: block;
+        height: auto;
+    }
+
+    .restContent .card div {
+        margin-left: 10px;
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+} 
