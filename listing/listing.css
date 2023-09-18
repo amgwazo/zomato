@@ -112,9 +112,11 @@ header{
     #rest-card-img-div{
     float: left;
     width: 40%;
-    height: 200px;
+    margin-top: 10px;
+    /* height: 200px; */
     border-radius: 15px;
     margin-left: 10px;
+
 }
 
 #rest-card-img-div img {
@@ -245,11 +247,13 @@ ul{
         height: auto;
         margin-left: 0;
         padding-left: 0;
+        margin-top: 0;
     }
 
         #rest-card-img-div img {
             width: 100%;
             margin: auto;
+            margin-top: 0;
         }
 
   
