@@ -22,12 +22,13 @@ header{
 
 #brand a {
     font-size: small;
+    font-weight: bold;
     text-decoration: none;
     color: white;
     border: 1px solid rgb(116, 167, 218);
     background-color:rgb(116, 167, 218);
     border-radius: 5px;
-    padding: 5px;
+    padding: 5px 10px;
 }
 
 #social{
@@ -110,7 +111,7 @@ header{
 }
 
 
-    #rest-card-img-div{
+    .rest-card-img-div{
     float: left;
     width: 40%;
     margin-top: 10px;
@@ -120,12 +121,12 @@ header{
 
 }
 
-#rest-card-img-div img {
+.rest-card-img-div img {
     width: 100%;
 }
 
 
-    #rest-card-div{
+    .rest-card-div{
     float: right;
     width: 56%;
     height: 200px;    
@@ -241,7 +242,7 @@ ul{
         font-size:large;
         }
 
-         #rest-card-img-div {
+         .rest-card-img-div {
         width: 100%;
         border-radius: 15px;
         display: block;
@@ -251,14 +252,14 @@ ul{
         margin-top: 0;
     }
 
-        #rest-card-img-div img {
+        .rest-card-img-div img {
             width: 100%;
             margin: auto;
             margin-top: 0;
         }
 
   
-        #rest-card-div{
+        .rest-card-div{
         margin-left: 5px;
         width: 95%;
         height: auto;
