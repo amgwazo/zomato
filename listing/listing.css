@@ -8,7 +8,7 @@ a{
 }
 
 header{
-    height:60px;
+    height: 60px;
     background-color: #3b2632;
 }
 
@@ -75,8 +75,8 @@ header{
     border-radius: 5px;
     margin-left:7%;
     padding: 1%;
-    overflow-y: scroll;
-    overflow-x: hidden;
+    /* overflow-y:scroll;
+    overflow-x: hidden; */
 }
 
 .pagination{
@@ -200,10 +200,6 @@ ul{
 /*** MEDIA QUERIES ***/
 @media screen and (max-width:1080px) {
 
-    header {
-            height: 100px;
-            background-color: #3b2632;
-        }
 
         .filter {
                 height: 100%;
@@ -266,3 +262,22 @@ ul{
         display: block;
     }
 } 
+
+@media screen and (max-width: 441px ) {
+    header {
+            height: 120px;
+            
+        }
+    
+}
+
+@media screen and (max-width: 350px){
+  
+
+    p, .filterRadio {
+        font-size: 70%;
+    }
+
+    
+    
+}
